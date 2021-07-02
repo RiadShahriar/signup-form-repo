@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(#9A3FFC,#25CCF9);
+    background-size: cover;
+    height: 100%;
+}
+.main{
+    padding: 30px;
+    background: white;
+    width: 350px;
+    margin: 5px;
+    margin: 150px auto;
+    border: 1px solid white;
+    border-radius: 7px;
+    box-shadow: 2px 2px 7px 0px black;
+   transform: scale(1.1);
+
+}
+.main h1{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: 900;
+   
+}
+.main input{
+    margin-top: 30px;
+    outline: none;
+   border-top: 100px;
+   border-right: 100px;
+   border-left: none;
+}
+.uu{
+    width: 100%;
+}
+button{
+    display: block;
+    margin: 40px auto;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 6px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+    background: linear-gradient(#9743FC,#5791FA);
+    color: white;
+
+}
+button:hover{ 
+    background: linear-gradient(#5791FA,#9743FC);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.bb{
+    display: inline;
+}
